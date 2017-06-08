@@ -1,28 +1,56 @@
 ---
 ---
+
 <head>
     <link rel="stylesheet" href="{{ site.github.url }}/css/main.css" type="text/css" />
     <link rel="stylesheet" href="{{ site.github.url }}/css/booksomething.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
 <div class="container">
     <div class="sub-container">
         <div class="enterinformation-container">
-            <p>Depart</p>
+            <form>
+                <input type="text" name="depart" value="Depart"> 
+            </form>
         </div>
         <div class="enterinformation-container">
-           <p>mm/dd/yyyy</p>
+             <form>
+                <input type="text" name="departdate" value="mm/dd/yyyy"> 
+            </form>
         </div>
         <div class="enterinformation-container">
-            Depart
+            <div class="passengers-container">
+                <div class="sub-passengers-container">
+                    Passengers
+                </div>
+                <div class="sub-passengers-container">
+                     <select name="passengers-integer">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4+">4+</option>
+                      </select>
+                </div>
+            </div>
         </div>
     </div>
     <div class="sub-container">
-        <div>BOX4</div>
-        <div>BOX5</div>
-        <div>BOX6</div>
+           <div class="enterinformation-container">
+            <form>
+                <input type="text" name="arrive" value="Arrive"> 
+            </form>
+        </div>
+          <div class="enterinformation-container">
+             <form>
+                <input type="text" name="departdate" value="mm/dd/yyyy"> 
+            </form>
+        </div>
+        <div class="enterinformation-container">
+            <form>
+              <input type="radio" name="return" value="Return" checked>Return
+              <input type="radio" name="one-way" value="One Way">One Way
+            </form>
+        </div>
     </div>
-    
-    
-    
 </div>
