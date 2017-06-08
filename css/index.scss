@@ -1,0 +1,63 @@
+---
+---
+.content-container {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.schedule-container {
+    margin: 70px;
+    height: 400px;
+    width: 450px;
+    background-color:#123754;
+    border-radius: 5px;
+}
+
+.empty-schedule-container {
+    margin: 70px;
+    height: 400px;
+    width: 450px;
+}
+
+.schedule-container-toprow {
+    display:flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height:17%;
+    background-color:#018d80;
+    border-radius: 5px 5px 0 0;
+}
+
+.schedule-container-toprow img{
+    margin: 10px;
+}
+
+.toprow-iconboxes {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    width:34%;
+    border-radius: 5px 0 0 0;
+}
+
+.toprow-iconboxes:last-child {
+    border-radius: 0 5px 0 0;
+}
+
+.toprow-iconboxes:target {
+    background-color:#0063b7;
+}
+
+.toprow-iconboxes:hover {
+    background-color:#0086f7;
+}
+
+
+.schedule-container-content {
+    display:flex;
+    width: 100%;
+    height:60%;
+}
+

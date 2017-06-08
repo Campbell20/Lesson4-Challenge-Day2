@@ -1,0 +1,51 @@
+---
+title: Home
+layout: default
+---
+
+<!--main content container for entire site-->
+<div class="content-container">
+
+    <!--Schedule container aligned to the left-->
+    <div class="schedule-container">
+
+        <!--The top row of the schedule container-->
+        <div class="schedule-container-toprow">
+            <div class="toprow-iconboxes" id="plane">
+                <a href="schedule-container-bookflight.html" onclick="location.href='#plane'" target="iframe">
+                    <div>
+                        <img src="images/plane-icon.png">
+                    </div>
+                </a>
+            </div>
+            <div class="toprow-iconboxes" id="hotel">
+                <a href="schedule-container-bookhotel.html" onclick="location.href='#hotel'" target="iframe">
+                    <div>
+                        <img src="images/hotel-icon.png">
+                    </div>
+                </a>
+            </div>
+            <div class="toprow-iconboxes" id="car">
+                <a href="schedule-container-bookcar.html" onclick="location.href='#car'" target="iframe">
+                    <div>
+                        <img src="images/car-icon.png">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!--Main content of schedule container-->
+        <div class="schedule-container-content">
+            <iframe src="schedule-container-bookflight.html" name="iframe"></iframe>
+        </div>
+
+
+        <!--Bottom row container of schedule container-->
+        <div class="schedule-container-bottomrow">
+
+        </div>
+    </div>
+
+    <!--Blank container to align schedule container correctly-->
+    <div class="empty-schedule-container"></div>
+</div>
